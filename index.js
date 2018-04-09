@@ -8,7 +8,7 @@ app.use("/", express.static(__dirname + '/view'));
 //app.use(favicon(__dirname + '/public/images/logo.png'));
 //app.use(morgan('dev'));
 
-app.use(require('cors')());
+//app.use(require('cors')());
 
 //app.use('/api/player', require('./server/api/player'));
 
